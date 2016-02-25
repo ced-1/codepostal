@@ -1,16 +1,25 @@
+#Configuration du fichier cron-dl-cp.sh
+
+Modifier la ligne 7
+```tab=(GP GF MQ RE YT PM MF BL WF TF NC PF FR)```
+afin de traiter les régions souhaités.
+
+Par défaut France métropolitaine + DOM + TOM
+
 #Installation du service web code postal
-dans un shell linux et le répertoire cp
+
+* dans un shell linux et le répertoire cp
 ```
 chmod +x cron-dl-cp.sh
 ./cron-dl-cp.sh
 ```
-dans le fichier host codePostal
+* dans le fichier host codePostal
 ```
 #Code Postal
 127.0.0.1		codepostal
 ::1             codepostal
 ```
-dans apache on ajoute un vhosts qui pointe vers le répertoire cp
+* dans apache on ajoute un vhosts qui pointe vers le répertoire cp
 ```
 #Code Postal
 <VirtualHost *:80>
