@@ -23,4 +23,10 @@ dans apache on ajoute un vhosts qui pointe vers le répertoire cp
 </VirtualHost>
 ```
 #Utilisation
-http://codepostal/?cp=97440
+Requete HTTP
+```GET http://codepostal/?cp=97440```
+
+#Credit
+Inspirer de [bano]
+osm-fr/bano-addr-collect
+[bano]:https://github.com/osm-fr/bano-addr-collect/
