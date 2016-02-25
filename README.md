@@ -1,6 +1,6 @@
 Code postal
 =============
-Ce projet fourni un service web qui à partir d'un code postal retourne la commune, le département, la région et le pays associé.
+Ce projet met à disposition un service web qui à partir d'un code postal retourne la commune, le département, la région et le pays associé.
 
 #Configuration du fichier cron-dl-cp.sh
 
