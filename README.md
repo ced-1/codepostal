@@ -41,5 +41,7 @@ Requete HTTP
 
 #Credit
 Inspirer de [bano]
+Données fourni par [GEONAMES]
 osm-fr/bano-addr-collect
 [bano]:https://github.com/osm-fr/bano-addr-collect/
+[GEONAMES]:www.geonames.org
