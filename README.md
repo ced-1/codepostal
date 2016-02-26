@@ -44,4 +44,4 @@ Inspirer de [bano]
 
 Données fourni par [GEONAMES]
 [bano]:https://github.com/osm-fr/bano-addr-collect/
-[GEONAMES]:www.geonames.org
+[GEONAMES]:http://www.geonames.org
