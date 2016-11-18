@@ -4,7 +4,7 @@ rm *.zip
 rm *.txt
 
 #liste des fichiers a telecharger FR + DOM + TOM
-tab=(GP GF MQ RE YT PM MF BL WF TF NC PF FR)
+tab=(FR GP GF MQ RE YT PM MF BL WF TF NC PF)
 #pour le moment les TOM ne dispose pas apriori de code iso
 
 #telechargement de chaque element de la liste
