@@ -5,7 +5,7 @@ Ce projet met à disposition un service web qui à partir d'un code postal retou
 #Configuration du fichier cron-dl-cp.sh
 
 Modifier la ligne 7
-```tab=(GP GF MQ RE YT PM MF BL WF TF NC PF FR)```
+`tab=(GP GF MQ RE YT PM MF BL WF TF NC PF FR)`
 afin de traiter les régions souhaités.
 
 Par défaut France métropolitaine + DOM + TOM
@@ -37,7 +37,7 @@ chmod +x cron-dl-cp.sh
 ```
 #Utilisation
 Requete HTTP
-```GET http://codepostal/?cp=97440```
+`GET http://codepostal/?cp=97440`
 
 #Credit
 Inspirer de [bano]
