@@ -13,8 +13,10 @@ Par défaut France métropolitaine + DOM + TOM
 #Installation du service web code postal
 
 * dans un shell linux et le répertoire cp
-```chmod +x cron-dl-cp.sh
-cd app/Support/Codepostal && bash ./cron-dl-cp.sh >> cp.log```
+```
+chmod +x cron-dl-cp.sh
+cd app/Support/Codepostal && bash ./cron-dl-cp.sh >> cp.log
+```
 * dans le fichier host codePostal
 ```
 #Code Postal
